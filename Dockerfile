@@ -7,5 +7,6 @@ WORKDIR /devops-java
 # Copy the JAR file from your host to the container
 COPY target/spring-boot-hello-world-main.jar /devops-java//spring-boot-hello-world-main.jar
 
+
 # Command to run the JAR file
 CMD ["java", "-jar", "spring-boot-hello-world-main.jar"]
